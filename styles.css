@@ -1,0 +1,64 @@
+body {
+  font-family: Arial;
+}
+
+.main-container {
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+.heading {
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size:45px;
+  font-weight: bold;
+  -webkit-animation:colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: darkmagenta;
+  }
+  10% {
+    color: skyblue;
+  }
+  20% {
+    color: tomato;
+  }
+  30% {
+    color: deeppink;
+  }
+  40% {
+    color: lightseagreen;
+  }
+  50% {
+    color: orangered;
+  }
+  60% {
+    color: dodgerblue;
+  }
+  70% {
+    color: mediumvioletred;
+  }
+  80% {
+    color: darkturquoise;
+  }
+  90% {
+    color: darkcyan;
+  }
+  100% {
+    color: palevioletred;
+  }
+}
+
+li {
+  padding: 5px;
+}
+
+.btn {
+
+}
